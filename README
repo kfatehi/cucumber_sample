@@ -1,0 +1,12 @@
+Install ruby then enter these commands
+	gem install bundler
+	bundle install
+This installs the gems listed in the Gemfile
+Now you can run:
+	cucumber features
+That will run cucumber against the folder "features"
+To use guard, run: 
+	guard
+
+To pry into the code at any point, use "binding.pry" anywhere.
+
